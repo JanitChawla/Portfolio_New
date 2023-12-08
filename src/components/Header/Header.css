@@ -24,7 +24,18 @@ nav ul li a {
     text-decoration: none;
     color: var(--second-color);
 }
+nav ul li button {
+    text-decoration: none;
+    color: var(--second-color);
+    background: transparent;
+    border: none;
+    font-family: "PT Mono", monospace;
+    font-size: 1em;
+}
 nav ul li a:hover {
+    color: var(--first-color);
+}
+nav ul li button:hover {
     color: var(--first-color);
 }
 .menu-icon {
@@ -34,6 +45,20 @@ nav ul li a:hover {
 }
 nav #hidden {
     display: flex;
+}
+
+.hover{
+    cursor: not-allowed;
+}
+
+.hoverbox{
+    border: 3px solid var(--second-color);
+    border-radius: 5px;
+    margin-top: 10px;
+    position: absolute;
+    width: max-content;
+    padding: 5px;
+    color: var(--second-color);
 }
 
 @media only screen and (max-width: 1400px) {
@@ -78,5 +103,15 @@ nav #hidden {
         max-height: 190px;
         overflow: hidden;
         transition: 0.3s;
+    }
+    .hoverbox{
+        border: 3px solid white;
+        border-radius: 5px;
+        margin-top: 10px;
+        position: absolute;
+        width: max-content;
+        padding: 5px;
+        right: 0px;
+        color: white;
     }
 }
