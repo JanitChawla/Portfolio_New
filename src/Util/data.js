@@ -27,6 +27,11 @@ export const SOCIAL_LINKS = [
         icon: "fab fa-lg fa-instagram",
         link: "https://www.instagram.com/chawlajanit/",
     },
+    {
+        name: "Medium blog",
+        icon: "lni lni-medium",
+        link: "https://medium.com/@chawlajanit"
+    }
 ];
 
 export const SKILLS = [
