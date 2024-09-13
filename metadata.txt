@@ -1,3 +1,0 @@
-InfoBegin
-InfoKey: Title
-InfoValue: JanitResume
